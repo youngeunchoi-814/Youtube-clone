@@ -85,6 +85,11 @@ body > .info {
 
 .info .matadata .titleAndButton {
   display: flex;
+  justify-content: space-between;
+}
+
+.info .matadata .titleAndButton .moreBtn {
+  margin-right: var(--padding);
 }
 
 .titleAndButton .title {
@@ -114,12 +119,12 @@ body > .info {
 .info .actions button {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   font-size: var(--font-small);
   color: var(--grey-dark-color);
 }
 
 .info .actions button i {
-  margin: 0 auto;
   margin-bottom: calc(var(--padding) / 2);
   font-size: 16px;
 }
